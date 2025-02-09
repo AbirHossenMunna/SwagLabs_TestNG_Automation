@@ -1,0 +1,27 @@
+<suite thread-count="1" verbose="1" name="Swag Labs portal automation">
+    <test name="Swag Labs portal login">
+        <classes>
+            <class name="TestRunner.LoginTestRunners"/>
+        </classes>
+    </test>
+    <test name="Swag Labs portal for Add to cart">
+        <classes>
+            <class name="TestRunner.AddToCartTestRunner"/>
+        </classes>
+    </test>
+    <test name="Swag Labs portal full checkout process">
+        <classes>
+            <class name="TestRunner.CheckoutTestRunner"/>
+        </classes>
+    </test>
+    <test name="Swag Labs portal sorting">
+        <classes>
+            <class name="TestRunner.SortingTestRunner"/>
+        </classes>
+    </test>
+    <test name="Swag Labs portal LockedOUt user">
+        <classes>
+            <class name="TestRunner.LockedOutTestRunner"/>
+        </classes>
+    </test>
+</suite>
