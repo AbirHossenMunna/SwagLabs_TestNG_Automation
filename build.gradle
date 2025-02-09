@@ -26,6 +26,6 @@ dependencies {
 
 test {
     useTestNG() {
-        suites "./testng.xml"
+        suites "./src/test/resources/testng.xml"
     }
 }
